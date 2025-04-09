@@ -37,7 +37,7 @@ const Footer = () => {
 };
   return (
     <footer style={{ marginTop: '2rem', padding: '1rem', textAlign: 'center' }}>
-      <p>© 2024 Konwerter Jednostek. Wszelkie prawa zastrzeżone.</p>
+      <p>© 2025 Konwerter Jednostek. Wszelkie prawa zastrzeżone.</p>
     </footer>
   );
 };

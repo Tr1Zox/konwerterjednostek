@@ -24,14 +24,8 @@ export const ConverterProvider = ({ children }) => {
     fetchCurrencyRates();
   }, []);
 
-  const value = {
-    currencyRates,
-    loading,
-    error
-  };
-
   return (
-    <ConverterContext.Provider value={value}>
+    <ConverterContext.Provider value={{ currencyRates, loading, error }}>
       {children}
     </ConverterContext.Provider>
   );

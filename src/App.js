@@ -16,7 +16,6 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/length" element={<LengthConverter />} />
           <Route path="/currency" element={<CurrencyConverter />} />
-          {/* ... inne trasy */}
         </Routes>
         <Footer />
       </Router>
